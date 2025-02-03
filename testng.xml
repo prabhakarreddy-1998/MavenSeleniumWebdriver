@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium Test Suite">
+    <test name="MakeMyTrip Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.MakeMyTripLogoTest"/>
+            <class name="tests.MakeMyTripFlightSearchTest"/>
+        </classes>
+    </test>
+</suite>
